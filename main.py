@@ -80,12 +80,12 @@ while True:
             print("Your Final Salary after tax is: $", finalsal)
 
         elif 109101 <= monthly_sal <= 208300:
-            print("Your Tax percent is 24%")
-            tax = (18250 * 0.10) + ((69650 - 18250) * 0.12) + ((monthly_sal - 69650) * 0.22) + ((monthly_sal - 109100) * 0.24)
-            finalsal = monthly_sal - tax
-            print("Your Final Salary after tax is: $", finalsal)
+             print("Your Tax percent is 24%")
+             tax = (18250 * 0.10) + ((69650 - 18250) * 0.12) + ((monthly_sal - 69650) * 0.22) + ((monthly_sal - 109100) * 0.24)
+             finalsal = monthly_sal - tax
+             print("Your Final Salary after tax is: $", finalsal)
 
-         elif 208301 <= monthly_sal <= 264550:
+        elif 208301 <= monthly_sal <= 264550:
             print("Your Tax percent is 32%")
             tax = (18250 * 0.10) + ((69650 - 18250) * 0.12) + ((monthly_sal - 69650) * 0.22) + ((monthly_sal - 109100) * 0.24) + ((monthly_sal - 208300) * 0.32)
             finalsal = monthly_sal - tax
@@ -102,7 +102,7 @@ while True:
             tax = (18250 * 0.10) + ((69650 - 18250) * 0.12) + ((monthly_sal - 69650) * 0.22) + ( (monthly_sal - 109100) * 0.24) + ((monthly_sal - 208300) * 0.32) + ((monthly_sal - 264551) * 0.35) + ((monthly_sal - 661350) * 0.37)
             finalsal = monthly_sal - tax
             print("Your Final Salary after tax is: $", finalsal)
-            
+
     elif userSal == 3:
         quit()
 
